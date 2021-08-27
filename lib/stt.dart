@@ -61,7 +61,7 @@ class _MyAppState extends State<MyApp> {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Smart Methods Chat Bot'),
+          title: const Text('Welcoming ChatBot'),
         ),
         body: Column(children: [
           Center(
