@@ -56,6 +56,9 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        primarySwatch: Colors.yellow
+      ),
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Smart Methods Chat Bot'),
@@ -109,8 +112,8 @@ class _MyAppState extends State<MyApp> {
                         color: Theme.of(context).selectedRowColor,
                         child: Center(
                           child: Image.asset(!speaking
-                              ? "Assets/still.png"
-                              : "Assets/talking.gif"),
+                              ? "Assets/robot.png"
+                              : "Assets/talking robot.png"),
                         ),
                       ),
                       Positioned.fill(
